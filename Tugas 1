@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arrayku [5]
+    int i;
+    int hasil = 0;
+    for (i=0; i<5; i++)
+    {
+        cout << "Nilai untuk arrayKu["<<i+1<<"]: ";
+        cin >> arrayKu[i];
+    }
+    cout << endl;
+    for (i=0; i<5; ++i)
+    {
+        hasil+= arrayKu[i];
+        cout <<"hasil ke- "<<i<<" adalah: " hasil<<endl;
+    }
+    cout<< endl<<"jumlah seluruh umum: "<<hasil<< endl;
+    return 0;
+}
